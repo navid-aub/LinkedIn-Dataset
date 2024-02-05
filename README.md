@@ -50,6 +50,14 @@ In addition to the above sections, numerical columns have been added to the data
 - If you utilize this dataset in your research, please ensure that you provide proper citation to [our paper](https://dl.acm.org/doi/abs/10.1145/3603163.3609064).
 - Respect LinkedIn's terms of service and user privacy when using this dataset for analysis or research.
 
+
+## How to import in Python:
+```python
+import pandas as pd
+dataset_directory = "C:/LinkedIn_Dataset.pcl" #Change this according to your directory
+dataset = pd.read_pickle(dataset_directory)
+```
+
 ## Citation:
 ```
 @inproceedings{ayoobi2023looming,
